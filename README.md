@@ -18,6 +18,9 @@ To measure the performance of our models, we use Accuracy, Precision, Recall, an
 # Results #
 
 ## ROC Curve ##
+
+![Screenshot](roc.png)
+
 The figure represents the micro-average ROC curves for all classification models developed in the project (Support Vector Machine, k-nearest neighbor, Random Forest, and Baseline). The Random Forest model has the highest true positive rate (0.92), followed by the kNN model (0.88) and SVM model (0.79).
 
 ## Performance Metrics Table ##
@@ -29,4 +32,7 @@ The table below shows a summary of all the performance scores (Accuracy, F1-Scor
 | k-nearest neighbor      | 91.87%         | 84.40%        | 91.88%         | 84.45%        | 91.91%          | 84.55%         | 91.87%       | 84.40%      |
 | Random Forest           | 99.33%         | 88.93%        | 99.33%         | 88.96%        | 99.34%          | 89.0%          | 99.12%       | 88.93%      |
 | Baseline                 | N/A            | 31.22%        | N/A            | 14.85%        | N/A             | 9.75%          | N/A          | 31.22%      |
+
+# How to use the project #
+
 
