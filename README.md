@@ -34,5 +34,9 @@ The table below shows a summary of all the performance scores (Accuracy, F1-Scor
 | Baseline                 | N/A            | 31.22%        | N/A            | 14.85%        | N/A             | 9.75%          | N/A          | 31.22%      |
 
 # How to use the project #
+The code for the project can be found in the src directory. To run the project, follow the below steps:
 
+- Install the required packages by running pip install -r requirements.txt.
+- Run python nettrafficanalyzerml.py to preprocess tha data, train and evaluate the performance of the all the models.
+Note: The Final_Datasets.csv directory contains the Network Packets dataset used in this project.
 
